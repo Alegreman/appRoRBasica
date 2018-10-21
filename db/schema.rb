@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_21_013441) do
+ActiveRecord::Schema.define(version: 2018_10_21_015706) do
 
   create_table "clientes", force: :cascade do |t|
     t.string "rfc"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 2018_10_21_013441) do
     t.datetime "fecha"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "cliente_id"
   end
 
 end
