@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :detalles
+  resources :ordens
   resources :registros
   resources :productos
   resources :clientes
