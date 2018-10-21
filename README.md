@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Parte del proyecto de la Unidad 2 y 3 de la materia de Infraestructura de Desarrollo Web Aplicación Rails, usando MVC y Bootstrap
 
-Things you may want to cover:
+Registro de órdenes de compra con la siguiente funcionalidad: Catálogo de clientes y productos y registro de órdenes.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Gema de Bootstrap 4 y uso de erb. app publicada en heroku en la siguiente dirección:
