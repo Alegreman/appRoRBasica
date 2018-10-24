@@ -10,6 +10,24 @@
   </head>
 
   <body>
+
+  <header class="navbar navbar-fixed-top navbar-inverse">
+
+   <div class="container">
+     <%= link_to "Home", '#', id: "logo" %>
+      <nav>
+       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Productos", 'productos' %></li>
+        <li><%= link_to "Clientes", 'clientes' %></li>
+        <li><%= link_to "Ordenes", 'ordens' %></li>
+        <li><%= link_to "Detalles", 'detalles' %></li>
+        <li><%= link_to "Registro", 'registros' %></li>
+      </ul>
+    </nav>
+    </div>
+    </header>
+    <div class="container">
     <%= yield %>
+    </div>
   </body>
 </html>

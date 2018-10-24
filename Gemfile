@@ -8,6 +8,12 @@ gem 'rails', '~> 5.2.1'
 
 #Sass Bootstrap
 gem 'bootstrap', '~> 4.0'
+#sas
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'autoprefixer-rails'
+
+#JQUERY
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
