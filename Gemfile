@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.1'
 #Sass Bootstrap
 gem 'bootstrap', '~> 4.0'
 #sas
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.3.7'
 gem 'autoprefixer-rails'
 
 #JQUERY

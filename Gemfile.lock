@@ -215,7 +215,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.0)
-  bootstrap-sass (~> 3.3.6)
+  bootstrap-sass (~> 3.3.7)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
