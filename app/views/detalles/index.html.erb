@@ -2,8 +2,8 @@
 
 <h1>Detalles</h1>
 
-<table>
-  <thead>
+<table class="table">
+  <thead class="thead-black">
     <tr>
       <th>Producto</th>
       <th>Cantidad</th>
@@ -18,9 +18,9 @@
         <td><%= detalle.producto_id %></td>
         <td><%= detalle.cantidad %></td>
         <td><%= detalle.precio_venta %></td>
-        <td><%= link_to 'Show', detalle %></td>
-        <td><%= link_to 'Edit', edit_detalle_path(detalle) %></td>
-        <td><%= link_to 'Destroy', detalle, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', detalle, class: "btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_detalle_path(detalle), class: "btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', detalle, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Detalle', new_detalle_path %>
+<%= link_to 'New Detalle', new_detalle_path, class: "btn btn-success" %>
