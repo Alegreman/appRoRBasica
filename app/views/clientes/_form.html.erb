@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="input-group-prepend">
     <%= form.label :rfc %>
     <%= form.text_field :rfc %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :nombre_cliente %>
     <%= form.text_field :nombre_cliente %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-light" %>
   </div>
 <% end %>
